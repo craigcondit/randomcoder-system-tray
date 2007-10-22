@@ -118,6 +118,10 @@ public class SystemTrayWrapper
 		{
 			throw new UnsupportedOperationException("System tray unavailable on this platform", e);
 		}
+		catch (NoClassDefFoundError e)
+		{
+			throw new UnsupportedOperationException("System tray unavailable on this platform", e);
+		}
 		catch (IllegalAccessException e)
 		{
 			throw new UnsupportedOperationException("System tray unavailable on this platform", e);
@@ -184,6 +188,10 @@ public class SystemTrayWrapper
 			
 			// invoke underlying method			
 			return ((Boolean) method.invoke(null)).booleanValue();
+		}
+		catch (NoClassDefFoundError e)
+		{
+			return false;
 		}
 		catch (ClassNotFoundException e)
 		{
