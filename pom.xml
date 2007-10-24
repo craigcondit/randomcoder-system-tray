@@ -16,7 +16,7 @@
   <inceptionYear>2007</inceptionYear>
   <scm>
     <connection>scm:svn:http://randomcoder.com/repos/public/randomcoder-system-tray/trunk</connection>
-    <developerConnection>scm:svn:https://randomcoder.com/repos/public/randomcoder-system-tray/trunk/developerConnection>
+    <developerConnection>scm:svn:https://randomcoder.com/repos/public/randomcoder-system-tray/trunk</developerConnection>
     <url>http://randomcoder.com/repos/public/randomcoder-system-tray/trunk</url>
   </scm>
   <repositories>
