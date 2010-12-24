@@ -12,12 +12,12 @@
   <name>Randomcoder System Tray Wrapper</name>
   <version>1.0.1-SNAPSHOT</version>
   <description>Wrapper around Java6 SystemTray</description>
-  <url>http://randomcoder.com/maven/site/randomcoder-system-tray/</url>
+  <url>http://randomcoder.org/maven/site/randomcoder-system-tray/</url>
   <inceptionYear>2007</inceptionYear>
   <scm>
-    <connection>scm:svn:http://randomcoder.com/repos/public/randomcoder-system-tray/trunk</connection>
-    <developerConnection>scm:svn:https://randomcoder.com/repos/public/randomcoder-system-tray/trunk</developerConnection>
-    <url>http://randomcoder.com/repos/public/randomcoder-system-tray/trunk</url>
+    <connection>scm:svn:http://randomcoder.org/repos/public/randomcoder-system-tray/trunk</connection>
+    <developerConnection>scm:svn:https://randomcoder.org/repos/public/randomcoder-system-tray/trunk</developerConnection>
+    <url>http://randomcoder.org/repos/public/randomcoder-system-tray/trunk</url>
   </scm>
   <repositories>
     <repository>
@@ -29,7 +29,7 @@
       </snapshots>
       <id>randomcoder-release</id>
       <name>Randomcoder Release</name>
-      <url>http://randomcoder.com/maven/repository/release</url>
+      <url>http://randomcoder.org/maven/repository/release</url>
     </repository>
     <repository>
       <releases>
@@ -40,7 +40,7 @@
       </snapshots>
       <id>randomcoder-snapshot</id>
       <name>Randomcoder Snapshot</name>
-      <url>http://randomcoder.com/maven/repository/snapshot</url>
+      <url>http://randomcoder.org/maven/repository/snapshot</url>
     </repository>
   </repositories>  
   <dependencies>

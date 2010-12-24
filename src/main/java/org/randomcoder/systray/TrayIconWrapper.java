@@ -1,10 +1,10 @@
-package com.randomcoder.systray;
+package org.randomcoder.systray;
 
 import java.awt.*;
 import java.awt.event.*;
 import java.lang.reflect.*;
 
-import com.randomcoder.systray.peer.*;
+import org.randomcoder.systray.peer.*;
 
 /**
  * Wrapper around Java 6's <code>TrayIcon</code> class, to allow use on Java 6 when available

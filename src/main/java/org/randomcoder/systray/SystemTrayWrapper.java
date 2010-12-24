@@ -1,11 +1,11 @@
-package com.randomcoder.systray;
+package org.randomcoder.systray;
 
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeListener;
 import java.lang.reflect.*;
 
-import com.randomcoder.systray.peer.*;
+import org.randomcoder.systray.peer.*;
 
 /**
  * Wrapper around Java 6's <code>SystemTray</code> class, to allow use on Java

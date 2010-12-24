@@ -27,4 +27,4 @@
  * POSSIBILITY OF SUCH DAMAGE.
  * </pre>
  **/
-package com.randomcoder.systray.peer;
+package org.randomcoder.systray.peer;

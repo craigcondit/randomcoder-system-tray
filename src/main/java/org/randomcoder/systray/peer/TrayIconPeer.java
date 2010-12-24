@@ -1,4 +1,4 @@
-package com.randomcoder.systray.peer;
+package org.randomcoder.systray.peer;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -73,7 +73,7 @@ public interface TrayIconPeer
 	
 	public ActionListener[] getActionListeners();
 	
-	public void displayMessage(String caption, String text, com.randomcoder.systray.TrayIconWrapper.MessageType messageType);
+	public void displayMessage(String caption, String text, org.randomcoder.systray.TrayIconWrapper.MessageType messageType);
 	
 	public Dimension getSize();	
 }

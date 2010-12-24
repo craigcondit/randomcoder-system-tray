@@ -1,4 +1,4 @@
-package com.randomcoder.systray.peer;
+package org.randomcoder.systray.peer;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -156,7 +156,7 @@ public class TrayIconPeerImpl implements TrayIconPeer
 		return peer.getActionListeners();
 	}
 	
-	public void displayMessage(String caption, String text, com.randomcoder.systray.TrayIconWrapper.MessageType messageType)
+	public void displayMessage(String caption, String text, org.randomcoder.systray.TrayIconWrapper.MessageType messageType)
 	{
 		peer.displayMessage(caption, text, TrayIcon.MessageType.valueOf(messageType.name()));
 	}	

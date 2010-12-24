@@ -1,4 +1,4 @@
-package com.randomcoder.systray.peer;
+package org.randomcoder.systray.peer;
 
 import java.awt.*;
 import java.beans.PropertyChangeListener;
