@@ -10,14 +10,14 @@
   <artifactId>randomcoder-system-tray</artifactId>
   <packaging>jar</packaging>
   <name>Randomcoder System Tray Wrapper</name>
-  <version>1.1.0-SNAPSHOT</version>
+  <version>1.1.0</version>
   <description>Wrapper around Java6 SystemTray</description>
   <url>http://randomcoder.org/maven/site/randomcoder-system-tray/</url>
   <inceptionYear>2007</inceptionYear>
   <scm>
-    <connection>scm:svn:http://randomcoder.org/repos/public/randomcoder-system-tray/trunk</connection>
-    <developerConnection>scm:svn:https://randomcoder.org/repos/public/randomcoder-system-tray/trunk</developerConnection>
-    <url>http://randomcoder.org/repos/public/randomcoder-system-tray/trunk</url>
+    <connection>scm:svn:http://randomcoder.org/repos/public/randomcoder-system-tray/tags/1.1.0</connection>
+    <developerConnection>scm:svn:https://randomcoder.org/repos/public/randomcoder-system-tray/tags/1.1.0</developerConnection>
+    <url>http://randomcoder.org/repos/public/randomcoder-system-tray/tags/1.1.0</url>
   </scm>
   <repositories>
     <repository>
