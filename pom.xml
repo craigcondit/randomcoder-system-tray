@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>randomcoder-base</artifactId>
-    <groupId>com.randomcoder</groupId>
-    <version>8</version>
+    <groupId>org.randomcoder</groupId>
+    <version>11</version>
   </parent>
-  <groupId>com.randomcoder</groupId>
+  <groupId>org.randomcoder</groupId>
   <artifactId>randomcoder-system-tray</artifactId>
   <packaging>jar</packaging>
   <name>Randomcoder System Tray Wrapper</name>
