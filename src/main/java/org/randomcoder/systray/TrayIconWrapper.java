@@ -246,7 +246,7 @@ public class TrayIconWrapper
 	/**
 	 * <p>
 	 * Sets the image for this <code>TrayIcon</code>. The previous tray icon
-	 * image is discarded without calling the {@link Image#flush()} method — you
+	 * image is discarded without calling the {@link Image#flush()} method -- you
 	 * will need to call it manually.
 	 * </p>
 	 * 
