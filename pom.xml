@@ -10,7 +10,7 @@
 	<artifactId>randomcoder-system-tray</artifactId>
 	<packaging>jar</packaging>
 	<name>Randomcoder System Tray Wrapper</name>
-	<version>1.1.2-SNAPSHOT</version>
+	<version>1.1.2</version>
 	<description>Wrapper around Java6 SystemTray</description>
 	<url>https://randomcoder.org/nexus/content/sites/randomcoder-system-tray/</url>
 	<inceptionYear>2007</inceptionYear>
