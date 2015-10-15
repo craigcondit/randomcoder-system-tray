@@ -234,7 +234,7 @@ public class SystemTrayWrapper
 	 *            the <code>TrayIcon</code> to be added
 	 * @throws NullPointerException
 	 *             if <code>trayIcon</code> is <code>null</code>
-	 * @thorws IllegalArgumentException if the same instance of a
+	 * @throws IllegalArgumentException if the same instance of a
 	 *         <code>TrayIcon</code> is added more than once
 	 * @throws AWTException
 	 *             if the desktop system tray is missing

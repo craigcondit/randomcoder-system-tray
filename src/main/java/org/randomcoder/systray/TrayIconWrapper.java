@@ -97,8 +97,8 @@ public class TrayIconWrapper
 	 * @throws SecurityException
 	 *             if <code>accessSystemTray</code> permission is not granted
 	 * @see SystemTrayWrapper#add(TrayIconWrapper)
-	 * @see #TrayIcon(Image, String, PopupMenu)
-	 * @see #TrayIcon(Image, String)
+	 * @see TrayIcon#TrayIcon(Image, String, PopupMenu)
+	 * @see TrayIcon#TrayIcon(Image, String)
 	 * @see SecurityManager#checkPermission(java.security.Permission)
 	 * @see AWTPermission
 	 */
@@ -151,8 +151,8 @@ public class TrayIconWrapper
 	 * @throws SecurityException
 	 *             if <code>accessSystemTray</code> permission is not granted
 	 * @see SystemTrayWrapper#add(TrayIconWrapper)
-	 * @see #TrayIcon(Image)
-	 * @see #TrayIcon(Image, String, PopupMenu)
+	 * @see TrayIcon#TrayIcon(Image)
+	 * @see TrayIcon#TrayIcon(Image, String, PopupMenu)
 	 * @see SecurityManager#checkPermission(java.security.Permission)
 	 * @see AWTPermission
 	 */
@@ -208,8 +208,8 @@ public class TrayIconWrapper
 	 * @throws SecurityException
 	 *             if <code>accessSystemTray</code> permission is not granted
 	 * @see SystemTrayWrapper#add(TrayIconWrapper)
-	 * @see #TrayIcon(Image)
-	 * @see #TrayIcon(Image, String)
+	 * @see TrayIcon#TrayIcon(Image)
+	 * @see TrayIcon#TrayIcon(Image, String)
 	 * @see SecurityManager#checkPermission(java.security.Permission)
 	 * @see AWTPermission
 	 */
@@ -272,7 +272,7 @@ public class TrayIconWrapper
 	 * @see #getImage()
 	 * @see Image
 	 * @see SystemTrayWrapper#add(TrayIconWrapper)
-	 * @see #TrayIcon(Image, String)
+	 * @see TrayIcon#TrayIcon(Image, String)
 	 */
 	public void setImage(Image image)
 	{
